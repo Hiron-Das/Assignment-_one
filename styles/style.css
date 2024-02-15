@@ -28,11 +28,10 @@ h3 {
     align-items: center;
     width: 90%;
     height: 75vh;
-    background-image: url("../resources/Banner\ Image.png");
+    background-image: linear-gradient(180deg, rgba(34, 30, 30, 0.622), rgba(225, 221, 221, 0)), url("../resources/Banner\ Image.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-color: rgb(17, 12, 12);
-    border: 0;
     border-radius: 16px;
     margin: 32px auto;
 }
@@ -83,4 +82,46 @@ h3 {
 
 .categories-container img {
     padding: 20px;
+}
+
+.join-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    background-image: linear-gradient(to bottom, rgba(17, 19, 32, 0.525), rgba(28, 18, 26, 0.73)), url("../resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.join-section-left {
+    text-align: left;
+    padding: 80px;
+}
+
+.join-section-left h3 {
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.join-section-left p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.join-section-left .join-btn {
+    background-color: transparent;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 50px 30px;
+}
+
+.join-section-right {
+    padding: 80px;
 }
