@@ -259,7 +259,7 @@ h3 {
     font-weight: 500;
     color: #070211a1;
     text-align: center;
-    padding: 0 100px;
+    padding: 20px 100px;
 
 }
 
@@ -376,10 +376,11 @@ h3 {
     border-radius: 20px 0 0 20px;
 }
 
-.newsletter-container-text label span {
+.newsletter-container-text label button {
     background-color: #FF0000;
     color: #FFFFFF;
-    padding: 11px 20px;
+    padding: 14px 20px;
+    border: 0;
     border-radius: 0 20px 20px 0;
 }
 
