@@ -28,8 +28,8 @@ h3 {
     align-items: center;
     width: 90%;
     height: 75vh;
-    background-image: linear-gradient(180deg, rgba(34, 30, 30, 0.622), rgba(225, 221, 221, 0)), url("../resources/Banner\ Image.png");
-    background-size: contain;
+    background-image: linear-gradient(180deg, #221e1ee5, #e1dddd00), url("../resources/Banner\ Image.png");
+    background-size: 100%;
     background-repeat: no-repeat;
     background-color: rgb(17, 12, 12);
     border-radius: 16px;
@@ -38,16 +38,17 @@ h3 {
 
 .header h3 {
     color: white;
-    font-size: 32px;
-
+    font-size: 28px;
+    font-weight: 400;
 }
 
 .header h2 {
     color: white;
-    font-size: 85px;
-    font-weight: bolder;
+    font-size: 70px;
+    font-weight: bold;
     padding-bottom: 60px;
     text-align: center;
+    width: 70%;
 }
 
 /* categories styles */
@@ -56,13 +57,13 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 100px 0;
 }
 
 .categories-title {
     color: #FF0000;
     font-size: 60px;
     font-weight: bold;
-    padding-top: 50px;
     padding-bottom: 25px;
 }
 
@@ -81,17 +82,19 @@ h3 {
 }
 
 .categories-container img {
-    padding: 20px;
+    width: 630px;
 }
 
+/* join section styles */
 .join-section {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90%;
-    height: 80vh;
-    margin: 0 auto;
-    background-image: linear-gradient(to bottom, rgba(17, 19, 32, 0.525), rgba(28, 18, 26, 0.73)), url("../resources/Vectorrr.png");
+    height: 73vh;
+    margin: 32px auto;
+    background-image: linear-gradient(45deg, rgba(17, 19, 32, 0.525), rgba(22, 20, 22, 0.455)), url("../resources/Vectorrr.png");
+    background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 16px;
 }
@@ -124,4 +127,101 @@ h3 {
 
 .join-section-right {
     padding: 80px;
+}
+
+/* event time styles----- */
+.event-time {
+    background-image: linear-gradient(rgba(237, 177, 177, 0.509), white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40vh;
+    margin: 32px auto;
+    padding: 50px;
+    border-radius: 16px;
+}
+
+.event-time .event-title {
+    color: #FF0000;
+}
+
+.event-time h3 {
+    padding-bottom: 16px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.event-time .event-join-btn {
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 8px;
+}
+
+/* offer & greeting styles */
+.offer-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px auto;
+}
+
+.offer-container-first {
+    margin-left: 30px;
+}
+
+.offer-container-first h4 {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 500;
+    color: #FF0000;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.offer-container-first h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #070211;
+}
+
+.offer-container-first p {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 400;
+    color: #070211a1;
+}
+
+.offer-container-img {
+    margin: 50px 70px;
+}
+
+.offer-container-img img {
+    padding: 30px;
+    border: 10px solid red;
+    border-radius: 250px;
+}
+
+.offer-container-last h3 {
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: bold;
+    color: #FF0000;
+    margin-top: 20px;
+}
+
+.offer-container-last p {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    color: #070211a1;
 }
